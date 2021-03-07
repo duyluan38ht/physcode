@@ -1,0 +1,6 @@
+2021-02-20T18:18:26+00:00 CRITICAL Cannot redeclare wxr_cdata() (previously declared in /home/oncoschool/public_html/wp-content/plugins/learnpress-import-export/inc/admin/providers/learnpress/lp-export-functions.php:23) em /home/oncoschool/public_html/wp-admin/includes/export.php na linha 198
+
+2021-02-20T18:18:32+00:00 CRITICAL Cannot redeclare wxr_cdata() (previously declared in /home/oncoschool/public_html/wp-content/plugins/learnpress-import-export/inc/admin/providers/learnpress/lp-export-functions.php:23) em /home/oncoschool/public_html/wp-admin/includes/export.php na linha 198
+
+2021-02-20T18:27:39+00:00 CRITICAL Cannot redeclare wxr_cdata() (previously declared in /home/oncoschool/public_html/wp-content/plugins/learnpress-import-export/inc/admin/providers/learnpress/lp-export-functions.php:23) em /home/oncoschool/public_html/wp-admin/includes/export.php na linha 198
+

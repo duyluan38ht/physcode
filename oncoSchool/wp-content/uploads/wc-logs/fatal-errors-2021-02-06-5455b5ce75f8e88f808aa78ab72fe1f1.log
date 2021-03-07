@@ -1,0 +1,12 @@
+2021-02-06T22:02:09+00:00 CRITICAL Uncaught Error: Class 'WPMailSMTP\Tasks\Tasks' not found in /home/oncoschool/public_html/wp-content/plugins/wp-mail-smtp/src/Core.php:230
+Stack trace:
+#0 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(287): WPMailSMTP\Core->get_tasks('')
+#1 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/oncoschool/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/oncoschool/public_html/wp-settings.php(557): do_action('init')
+#4 /home/oncoschool/public_html/wp-config.php(90): require_once('/home/oncoschoo...')
+#5 /home/oncoschool/public_html/wp-load.php(37): require_once('/home/oncoschoo...')
+#6 /home/oncoschool/public_html/wp-cron.php(44): require_once('/home/oncoschoo...')
+#7 {main}
+  thrown em /home/oncoschool/public_html/wp-content/plugins/wp-mail-smtp/src/Core.php na linha 230
+

@@ -1,0 +1,110 @@
+2021-02-10T15:28:54+00:00 CRITICAL Uncaught Error: Call to undefined method LP_User::user_check_blocked_duration() in /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php:19
+Stack trace:
+#0 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include()
+#1 /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/content-single-course.php(40): learn_press_get_template('single-course/c...', Array)
+#2 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include('/home/oncoschoo...')
+#3 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(1653): learn_press_get_template('content-single-...')
+#4 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(287): learn_press_content_single_course('')
+#5 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home/oncoschool/public_html/wp-includes/plugin.php(484): WP_Hook-> em /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php na linha 19
+
+2021-02-10T18:20:51+00:00 CRITICAL Uncaught Error: Call to undefined method LP_User::user_check_blocked_duration() in /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php:19
+Stack trace:
+#0 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include()
+#1 /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/content-single-course.php(40): learn_press_get_template('single-course/c...', Array)
+#2 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include('/home/oncoschoo...')
+#3 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(1653): learn_press_get_template('content-single-...')
+#4 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(287): learn_press_content_single_course('')
+#5 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home/oncoschool/public_html/wp-includes/plugin.php(484): WP_Hook-> em /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php na linha 19
+
+2021-02-10T18:22:39+00:00 CRITICAL Uncaught Error: Call to undefined method LP_User::user_check_blocked_duration() in /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php:19
+Stack trace:
+#0 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include()
+#1 /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/content-single-course.php(40): learn_press_get_template('single-course/c...', Array)
+#2 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include('/home/oncoschoo...')
+#3 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(1653): learn_press_get_template('content-single-...')
+#4 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(287): learn_press_content_single_course('')
+#5 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home/oncoschool/public_html/wp-includes/plugin.php(484): WP_Hook-> em /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php na linha 19
+
+2021-02-10T20:12:11+00:00 CRITICAL Uncaught Error: Call to undefined method LP_User::user_check_blocked_duration() in /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php:19
+Stack trace:
+#0 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include()
+#1 /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/content-single-course.php(40): learn_press_get_template('single-course/c...', Array)
+#2 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include('/home/oncoschoo...')
+#3 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(1653): learn_press_get_template('content-single-...')
+#4 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(287): learn_press_content_single_course('')
+#5 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home/oncoschool/public_html/wp-includes/plugin.php(484): WP_Hook-> em /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php na linha 19
+
+2021-02-10T20:12:54+00:00 CRITICAL Uncaught Error: Call to undefined method LP_User::user_check_blocked_duration() in /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php:19
+Stack trace:
+#0 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include()
+#1 /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/content-single-course.php(40): learn_press_get_template('single-course/c...', Array)
+#2 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include('/home/oncoschoo...')
+#3 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(1653): learn_press_get_template('content-single-...')
+#4 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(287): learn_press_content_single_course('')
+#5 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home/oncoschool/public_html/wp-includes/plugin.php(484): WP_Hook-> em /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php na linha 19
+
+2021-02-10T20:14:24+00:00 CRITICAL Uncaught Error: Call to undefined method LP_User::user_check_blocked_duration() in /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php:19
+Stack trace:
+#0 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include()
+#1 /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/content-single-course.php(40): learn_press_get_template('single-course/c...', Array)
+#2 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include('/home/oncoschoo...')
+#3 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(1653): learn_press_get_template('content-single-...')
+#4 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(287): learn_press_content_single_course('')
+#5 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home/oncoschool/public_html/wp-includes/plugin.php(484): WP_Hook-> em /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php na linha 19
+
+2021-02-10T20:18:10+00:00 CRITICAL Uncaught Error: Call to undefined method LP_User::user_check_blocked_duration() in /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php:19
+Stack trace:
+#0 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include()
+#1 /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/content-single-course.php(40): learn_press_get_template('single-course/c...', Array)
+#2 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include('/home/oncoschoo...')
+#3 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(1653): learn_press_get_template('content-single-...')
+#4 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(287): learn_press_content_single_course('')
+#5 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home/oncoschool/public_html/wp-includes/plugin.php(484): WP_Hook-> em /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php na linha 19
+
+2021-02-10T20:22:19+00:00 CRITICAL Uncaught Error: Call to undefined method LP_User::user_check_blocked_duration() in /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php:19
+Stack trace:
+#0 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include()
+#1 /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/content-single-course.php(40): learn_press_get_template('single-course/c...', Array)
+#2 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include('/home/oncoschoo...')
+#3 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(1653): learn_press_get_template('content-single-...')
+#4 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(287): learn_press_content_single_course('')
+#5 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home/oncoschool/public_html/wp-includes/plugin.php(484): WP_Hook-> em /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php na linha 19
+
+2021-02-10T20:23:44+00:00 CRITICAL Uncaught Error: Call to undefined method LP_User::user_check_blocked_duration() in /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php:19
+Stack trace:
+#0 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include()
+#1 /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/content-single-course.php(40): learn_press_get_template('single-course/c...', Array)
+#2 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include('/home/oncoschoo...')
+#3 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(1653): learn_press_get_template('content-single-...')
+#4 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(287): learn_press_content_single_course('')
+#5 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home/oncoschool/public_html/wp-includes/plugin.php(484): WP_Hook-> em /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php na linha 19
+
+2021-02-10T21:20:06+00:00 CRITICAL Uncaught Error: Call to undefined method LP_User::user_check_blocked_duration() in /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php:19
+Stack trace:
+#0 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include()
+#1 /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/content-single-course.php(40): learn_press_get_template('single-course/c...', Array)
+#2 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include('/home/oncoschoo...')
+#3 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(1653): learn_press_get_template('content-single-...')
+#4 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(287): learn_press_content_single_course('')
+#5 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home/oncoschool/public_html/wp-includes/plugin.php(484): WP_Hook-> em /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php na linha 19
+
+2021-02-10T23:21:59+00:00 CRITICAL Uncaught Error: Call to undefined method LP_User::user_check_blocked_duration() in /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php:19
+Stack trace:
+#0 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include()
+#1 /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/content-single-course.php(40): learn_press_get_template('single-course/c...', Array)
+#2 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(2589): include('/home/oncoschoo...')
+#3 /home/oncoschool/public_html/wp-content/plugins/learnpress/inc/lp-template-functions.php(1653): learn_press_get_template('content-single-...')
+#4 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(287): learn_press_content_single_course('')
+#5 /home/oncoschool/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home/oncoschool/public_html/wp-includes/plugin.php(484): WP_Hook-> em /home/oncoschool/public_html/wp-content/themes/ivy-school/learnpress/single-course/content-learning.php na linha 19
+

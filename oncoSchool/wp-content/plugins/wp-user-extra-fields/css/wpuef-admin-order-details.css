@@ -1,0 +1,16 @@
+.form-row.form-row-wide {
+  clear: both;
+  display: block;
+}
+#wpuef-order-meta-box
+{
+	clear: both;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.form-row label.wpuef_label
+{
+	display:block;
+	clear:both;
+}

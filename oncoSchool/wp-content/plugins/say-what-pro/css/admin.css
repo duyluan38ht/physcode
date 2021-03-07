@@ -1,0 +1,58 @@
+.wp-list-table .column-orig_string,
+.wp-list-table .column-replacement_string {
+	width: 35%;
+}
+
+.wrap.swp-has-multi-lingual .wp-list-table .column-orig_string,
+.wrap.swp-has-multi-lingual .wp-list-table .column-replacement_string {
+	width: 30%;
+}
+
+.wp-list-table .column-domain,
+.wp-list-table .column-context {
+	width: 15%;
+}
+
+.wp-list-table .column-lang {
+	width: 10%;
+}
+
+.ui-autocomplete.ui-menu .ui-menu-item {
+	overflow: hidden;
+}
+
+.sw-danger {
+	font-weight: bold;
+	font-color: #99000;
+}
+
+.text-muted {
+	font-size: 85%;
+	font-style: italic;
+	color: #666;
+}
+
+label {
+	font-weight: bold;
+}
+
+input, textarea {
+	margin-top: 0.5em;
+}
+
+i.dashicons {
+	text-decoration: none !important;
+}
+
+div.say_what_translated_string {
+	font-style: italic;
+	font-size: smaller;
+	color: #666;
+	margin-top: -1em;
+}
+
+div.say_what_translated_string span {
+	display: inline-block;
+	margin-left: 1em;
+	color: #333;
+}

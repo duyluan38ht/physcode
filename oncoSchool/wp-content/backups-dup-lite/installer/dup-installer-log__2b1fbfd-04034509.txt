@@ -1,0 +1,1621 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 01:46:24
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.27                                |7.4.13
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2021-03-04 03:45:09
+WP VERSION__________: 5.6.2
+DUP VERSION_________: 1.4.0
+DB__________________: 10.3.28
+DB TABLES___________: 123
+DB ROWS_____________: 82,967
+DB FILE SIZE________: 21.16MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.13 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.41 (Ubuntu)
+DOC ROOT____________: "/var/www/html/PHYSCODE/oncoSchool"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/PHYSCODE/oncoSchool/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/var/www/html/PHYSCODE/oncoSchool/20210304_oncoschool_[HASH]_20210304034509_archive.zip"
+SIZE________________: 308.24MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/html/PHYSCODE/oncoSchool/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/html/PHYSCODE/oncoSchool/installer.php' failed
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/html/PHYSCODE/oncoSchool/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:655]
+Permissions setting on file '/var/www/html/PHYSCODE/oncoSchool/20210304_oncoschool_[HASH]_20210304034509_archive.zip' failed
+
+STEP-1 COMPLETE @ 01:46:30 - RUNTIME: 5.8610 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 01:48:39
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.23 -- Build Server: 10.3.28
+FILE SIZE:	dup-database__[HASH].sql (20.54MB)
+TIMEOUT:	5000
+MAXPACK:	67108864
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/var/www/html/PHYSCODE/oncoSchool/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [8.0.23] is less than the build version [10.3.28].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	1080
+
+wp_actionscheduler_actions: (259)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (4)
+wp_actionscheduler_logs: (777)
+wp_bp_activity: (156)
+wp_bp_activity_meta: (0)
+wp_bp_invitations: (0)
+wp_bp_notifications: (0)
+wp_bp_notifications_meta: (0)
+wp_bp_xprofile_data: (82)
+wp_bp_xprofile_fields: (1)
+wp_bp_xprofile_groups: (1)
+wp_bp_xprofile_meta: (1)
+wp_commentmeta: (6)
+wp_comments: (196)
+wp_ct_ugdpr_consent_log: (2047)
+wp_duplicator_packages: (0)
+wp_learnpress_order_itemmeta: (396)
+wp_learnpress_order_items: (99)
+wp_learnpress_question_answermeta: (38)
+wp_learnpress_question_answers: (280)
+wp_learnpress_quiz_questions: (54)
+wp_learnpress_review_logs: (30)
+wp_learnpress_section_items: (46)
+wp_learnpress_sections: (51)
+wp_learnpress_sessions: (641)
+wp_learnpress_user_itemmeta: (770)
+wp_learnpress_user_items: (239)
+wp_links: (0)
+wp_options: (731)
+wp_pmpro_discount_codes: (0)
+wp_pmpro_discount_codes_levels: (0)
+wp_pmpro_discount_codes_uses: (0)
+wp_pmpro_membership_levelmeta: (0)
+wp_pmpro_membership_levels: (0)
+wp_pmpro_membership_ordermeta: (0)
+wp_pmpro_membership_orders: (0)
+wp_pmpro_memberships_categories: (0)
+wp_pmpro_memberships_pages: (0)
+wp_pmpro_memberships_users: (0)
+wp_postmeta: (10647)
+wp_posts: (1201)
+wp_redirection_404: (0)
+wp_redirection_groups: (2)
+wp_redirection_items: (0)
+wp_redirection_logs: (0)
+wp_revslider_css: (109)
+wp_revslider_css_bkp: (47)
+wp_revslider_layer_animations: (0)
+wp_revslider_layer_animations_bkp: (0)
+wp_revslider_navigations: (0)
+wp_revslider_navigations_bkp: (0)
+wp_revslider_sliders: (1)
+wp_revslider_sliders_bkp: (0)
+wp_revslider_slides: (1)
+wp_revslider_slides_bkp: (0)
+wp_revslider_static_slides: (1)
+wp_revslider_static_slides_bkp: (0)
+wp_say_what_available_strings: (14551)
+wp_say_what_strings: (419)
+wp_say_what_wildcards: (1)
+wp_sbi_instagram_feed_locator: (0)
+wp_sbi_instagram_feeds_posts: (0)
+wp_sbi_instagram_posts: (0)
+wp_signups: (1)
+wp_term_relationships: (66)
+wp_term_taxonomy: (169)
+wp_termmeta: (30)
+wp_terms: (169)
+wp_usermeta: (5624)
+wp_users: (120)
+wp_wa_protect_site: (2)
+wp_wc_admin_note_actions: (43)
+wp_wc_admin_notes: (41)
+wp_wc_category_lookup: (1)
+wp_wc_customer_lookup: (85)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (10)
+wp_wc_order_product_lookup: (91)
+wp_wc_order_stats: (91)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (7)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (4)
+wp_wc_webhooks: (0)
+wp_wfblockediplog: (3)
+wp_wfblocks7: (3)
+wp_wfconfig: (248)
+wp_wfcrawlers: (0)
+wp_wffilechanges: (0)
+wp_wffilemods: (19853)
+wp_wfhits: (7)
+wp_wfhoover: (0)
+wp_wfissues: (2)
+wp_wfknownfilelist: (19853)
+wp_wflivetraffichuman: (0)
+wp_wflocs: (1)
+wp_wflogins: (4)
+wp_wfls_2fa_secrets: (0)
+wp_wfls_settings: (19)
+wp_wfnotifications: (3)
+wp_wfpendingissues: (0)
+wp_wfreversecache: (0)
+wp_wfsnipcache: (0)
+wp_wfstatus: (1184)
+wp_wftrafficrates: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (940)
+wp_woocommerce_order_items: (101)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (27)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_wpfm_backup: (0)
+wp_wpmailsmtp_tasks_meta: (115)
+wp_yikes_easy_mc_forms: (0)
+Removed '165' cache/transient rows
+
+INSERT DATA RUNTIME: 7.8013 sec.
+STEP-2 COMPLETE @ 01:48:46 - RUNTIME: 7.8130 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 01:48:53
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Onco School"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/oncoschool/public_html"
+path_new______________: "/var/www/html/PHYSCODE/oncoSchool"
+siteurl_______________: "http://localhost/PHYSCODE/oncoSchool"
+url_old_______________: "https://onco.school"
+url_new_______________: "http://localhost/PHYSCODE/oncoSchool"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:   259][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   777][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_bp_activity"__________________________________[ROWS:   156][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_bp_activity_meta"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bp_invitations"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bp_notifications"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bp_notifications_meta"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_bp_xprofile_data"_____________________________[ROWS:    82][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_bp_xprofile_fields"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_bp_xprofile_groups"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_bp_xprofile_meta"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:   196][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_ct_ugdpr_consent_log"_________________________[ROWS:  2047][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_learnpress_order_itemmeta"____________________[ROWS:   396][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_learnpress_order_items"_______________________[ROWS:    99][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_learnpress_question_answermeta"_______________[ROWS:    38][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_learnpress_question_answers"__________________[ROWS:   280][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_learnpress_quiz_questions"____________________[ROWS:    54][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_learnpress_review_logs"_______________________[ROWS:    30][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_learnpress_section_items"_____________________[ROWS:    46][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_learnpress_sections"__________________________[ROWS:    51][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_learnpress_sessions"__________________________[ROWS:   641][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_learnpress_user_itemmeta"_____________________[ROWS:   770][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_learnpress_user_items"________________________[ROWS:   239][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   731][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_pmpro_discount_codes"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_discount_codes_levels"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_discount_codes_uses"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_membership_levelmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_membership_levels"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_membership_ordermeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_membership_orders"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_memberships_categories"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_memberships_pages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_memberships_users"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 10647][PG:   4][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  1201][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_redirection_404"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_redirection_groups"___________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_redirection_items"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_redirection_logs"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_revslider_css_bkp"____________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_layer_animations_bkp"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_revslider_sliders_bkp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_revslider_slides_bkp"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_revslider_static_slides_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_say_what_available_strings"___________________[ROWS: 14551][PG:   5][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_say_what_strings"_____________________________[ROWS:   419][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_say_what_wildcards"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_sbi_instagram_feed_locator"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_sbi_instagram_feeds_posts"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_sbi_instagram_posts"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_signups"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    66][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:   169][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:   169][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:  5624][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:   120][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wa_protect_site"______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    43][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    41][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:    85][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:    91][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:    91][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfblockediplog"_______________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wfblocks7"____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wfconfig"_____________________________________[ROWS:   248][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wfcrawlers"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilechanges"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilemods"___________________________________[ROWS: 19853][PG:   6][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wfhits"_______________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wfhoover"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfissues"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wfknownfilelist"______________________________[ROWS: 19853][PG:   6][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wflivetraffichuman"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflocs"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wflogins"_____________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wfls_2fa_secrets"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_settings"________________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wfnotifications"______________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wfpendingissues"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfreversecache"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfsnipcache"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfstatus"_____________________________________[ROWS:  1184][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_wftrafficrates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:   940][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:   101][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:    27][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpfm_backup"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpmailsmtp_tasks_meta"________________________[ROWS:   115][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/oncoschool/public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  2:"\/home\/oncoschool\/public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  3:"%2Fhome%2Foncoschool%2Fpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  4:"\home\oncoschool\public_html" ====================> "/var/www/html/PHYSCODE/oncoSchool"
+	SEARCH  5:"\\home\\oncoschool\\public_html" =================> "\/var\/www\/html\/PHYSCODE\/oncoSchool"
+	SEARCH  6:"%5Chome%5Concoschool%5Cpublic_html" ==============> "%2Fvar%2Fwww%2Fhtml%2FPHYSCODE%2FoncoSchool"
+	SEARCH  7:"//onco.school" ===================================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH  8:"\/\/onco.school" =================================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH  9:"%2F%2Fonco.school" ===============================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 10:"//www.onco.school" ===============================> "//localhost/PHYSCODE/oncoSchool"
+	SEARCH 11:"\/\/www.onco.school" =============================> "\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 12:"%2F%2Fwww.onco.school" ===========================> "%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+	SEARCH 13:"https://localhost/PHYSCODE/oncoSchool" ===========> "http://localhost/PHYSCODE/oncoSchool"
+	SEARCH 14:"https:\/\/localhost\/PHYSCODE\/oncoSchool" =======> "http:\/\/localhost\/PHYSCODE\/oncoSchool"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool" => "http%3A%2F%2Flocalhost%2FPHYSCODE%2FoncoSchool"
+
+EVALUATE TABLE: "wp_yikes_easy_mc_forms"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:123 	|	 Rows:82802 	|	 Cells:463968 
+UPDATED:	Tables:13 	|	 Rows:1303 	|	 Cells:1552 
+ERRORS:		0 
+RUNTIME:	9.891700 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:49:03 - RUNTIME: 9.9196 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

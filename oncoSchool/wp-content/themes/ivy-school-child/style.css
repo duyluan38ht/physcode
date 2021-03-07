@@ -1,0 +1,14 @@
+/*
+ Theme Name:   Ivy School Child
+ Theme URI:    http://ivy-school.thimpress.com/
+ Description:  Ivy School Child Theme
+ Author:       ThimPress
+ Author URI:   http://thimpress.com
+ Template:     ivy-school
+ Version:      1.0.0
+ Text Domain:  ivy-school-child
+*/
+
+
+/* Remove footer ads wp-admin */
+remove_action( 'admin_footer', 'learn_press_footer_advertisement', - 10 );

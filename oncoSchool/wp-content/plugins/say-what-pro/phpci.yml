@@ -1,0 +1,13 @@
+build_settings:
+    ignore:
+        - "vendor"
+setup:
+    composer:
+        action: "install"
+test:
+    php_unit:
+        config:
+            - "phpunit.xml"
+failure:
+    email:
+        default_mailto_address: tech@ademti-software.co.uk

@@ -1,0 +1,66 @@
+#white-box
+{
+	background: white none repeat scroll 0 0;
+    box-shadow: 1px 1px 2px;
+	margin-top:15px;
+	padding: 10px 30px 50px 30px;
+    width: 90%;
+}
+.wpuef_label
+{
+	display:block;
+	clear:both;
+	font-weight:bold;
+	margin-bottom: 5px;
+	margin-top: 15px;
+}
+.js-save-form.fb-button
+{
+	background: #ff7373;
+}
+.configurator_wc_title
+{
+	border-bottom: 1px solid #d3d3d3;
+}
+.fb-add-field-types a {
+    background-color: #FF7373;
+
+}
+.fb-button {
+  border-color: #FF7373;
+  font-weight:bold;
+}
+.cid_box {
+  background: #FF7373 none repeat scroll 0 0;
+  font-weight:bold;
+}
+h4 {
+   font-size: 13px;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+.fb-common-checkboxes > select, .edit-response-field > select {
+  height: 40px;
+}
+input.wpuef_num_input
+{
+	display:block;
+	clear:both;
+	margin-bottom: 10px;
+}
+
+.wpuef_state_country_label {
+	display: block;
+	clear: right;
+}
+.wpuef_label_input_block {
+	float: left;
+	width: 48%;
+	margin-right: 5px;
+	display: block;
+	/* margin-left: 5px; */
+}
+.wpuef_country_state_default
+{
+	width: 98%;
+}

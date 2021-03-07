@@ -1,0 +1,20 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/leewillis77/wplisttableexportable"
+        }
+    ],
+    "require": {
+        "leewillis77/WpListTableExportable": "^v0.3.0",
+        "pimple/pimple": "^3.0"
+    },
+    "require-dev": {
+        "10up/wp_mock": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "": [ "src/", "src/interfaces", "tests/mocks" ]
+        }
+    }
+}

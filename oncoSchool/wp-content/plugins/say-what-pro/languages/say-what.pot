@@ -1,0 +1,312 @@
+# Copyright (C) 2017 Ademti Software Ltd.
+msgid ""
+msgstr ""
+"Project-Id-Version: Say What? Pro 2.6.0\n"
+"Report-Msgid-Bugs-To: https://plugins.leewillis.co.uk/support\n"
+"POT-Creation-Date: 2019-10-14 07:47:18+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \"Ademti Software Support\" "
+"<support@ademti-software.co.uk>\n"
+"Language-Team: \"Ademti Software Support\" <support@ademti-software.co.uk>\n"
+"Poedit: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: EDD_SL_Plugin_Updater.php:201
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:209
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:396
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:396
+msgid "Error"
+msgstr ""
+
+#: html/say-what-admin-add-wildcard-button.php:2
+msgid "Add Wildcard Swap"
+msgstr ""
+
+#: html/say-what-admin-addedit.php:1
+msgid ""
+"Fill in the details of the original translatable string, the string's text "
+"domain, and the string you would like to use instead. For more information "
+"check out the <a "
+"href='http://plugins.leewillis.co.uk/doc_post/adding-string-replacement/'>"
+"getting started guide</a>."
+msgstr ""
+
+#: html/say-what-admin-addedit.php:9 html/say-what-admin-import.php:4
+#: src/SayWhatProListTable.php:47
+msgid "Original string"
+msgstr ""
+
+#: html/say-what-admin-addedit.php:15 html/say-what-admin-import.php:5
+#: src/SayWhatProListTable.php:48
+msgid "Text domain"
+msgstr ""
+
+#: html/say-what-admin-addedit.php:20 html/say-what-admin-import.php:6
+#: src/SayWhatProListTable.php:49
+msgid "Text context"
+msgstr ""
+
+#: html/say-what-admin-addedit.php:25 html/say-what-admin-import.php:7
+#: src/SayWhatProListTable.php:50
+msgid "Replacement string"
+msgstr ""
+
+#: html/say-what-admin-addedit.php:31
+#: html/say-what-admin-addeditwildcards.php:18 src/SayWhatProListTable.php:53
+#: src/SayWhatProWildcardsListTable.php:52
+msgid "Affected language"
+msgstr ""
+
+#: html/say-what-admin-addedit.php:46
+#: html/say-what-admin-addeditwildcards.php:33
+msgid "Update"
+msgstr ""
+
+#: html/say-what-admin-addedit.php:46
+#: html/say-what-admin-addeditwildcards.php:33
+msgid "Add"
+msgstr ""
+
+#: html/say-what-admin-addeditwildcards.php:8
+#: src/SayWhatProWildcardsListTable.php:48
+msgid "Look for"
+msgstr ""
+
+#: html/say-what-admin-addeditwildcards.php:10
+msgid "Note: This is case-sensitive"
+msgstr ""
+
+#: html/say-what-admin-addeditwildcards.php:13
+msgid "Replace with"
+msgstr ""
+
+#: html/say-what-admin-delete-wildcard.php:1
+msgid "Are you sure you want to delete the wildcard swap for &quot;%s&quot;?"
+msgstr ""
+
+#: html/say-what-admin-delete-wildcard.php:3 html/say-what-admin-delete.php:3
+msgid "Yes"
+msgstr ""
+
+#: html/say-what-admin-delete-wildcard.php:3 html/say-what-admin-delete.php:3
+msgid "No"
+msgstr ""
+
+#: html/say-what-admin-delete.php:1
+msgid "Are you sure you want to delete the replacement string for &quot;%s&quot;?"
+msgstr ""
+
+#: html/say-what-admin-discovery-disable.php:3
+msgid "Disable"
+msgstr ""
+
+#: html/say-what-admin-discovery-enable.php:3
+msgid "Enable"
+msgstr ""
+
+#: html/say-what-admin-header.php:2 src/SayWhatProAdmin.php:161
+#: src/SayWhatProAdmin.php:162
+msgid "Text changes"
+msgstr ""
+
+#: html/say-what-admin-header.php:2
+msgid "Add Replacement"
+msgstr ""
+
+#: html/say-what-admin-header.php:4
+msgid "String replacements"
+msgstr ""
+
+#: html/say-what-admin-header.php:5
+msgid "String discovery"
+msgstr ""
+
+#: html/say-what-admin-header.php:6
+msgid "Import replacements"
+msgstr ""
+
+#: html/say-what-admin-header.php:7
+msgid "Wildcard swaps"
+msgstr ""
+
+#: html/say-what-admin-import.php:2
+msgid ""
+"Use this form to import replacements from a CSV file. The file should have "
+"a header row, and the following four columns:"
+msgstr ""
+
+#: html/say-what-admin-import.php:9
+msgid "Language code"
+msgstr ""
+
+#: html/say-what-admin-import.php:12
+msgid ""
+"You can generate a suitable file by exporting your current replacements on "
+"the &quot;Manage replacements&quot; tab."
+msgstr ""
+
+#: html/say-what-admin-import.php:16
+msgid "Choose a file from your computer:"
+msgstr ""
+
+#: html/say-what-admin-wildcard-explanation.php:1
+msgid ""
+"Wildcard swaps allow you to specify parts of strings, rather than the exact "
+"full string. The wildcard will be replaced in all strings where it occurs, "
+"unless that string has a specific replacement set up."
+msgstr ""
+
+#: html/say-what-admin-wildcard-warning.php:1
+msgid ""
+"Caution: Wildcard swaps are inefficient, and can slow down your site. Using "
+"proper replacements is always preferred. "
+msgstr ""
+
+#: html/say-what-admin-wildcard-warning.php:1
+msgid ""
+"Swaps may also produce undesireable results since they apply to all "
+"translatable strings, e.g. swapping <em>manage</em> with <em>control</em> "
+"would change <em>management</em> to <em>controlment</em>"
+msgstr ""
+
+#: src/SayWhatPro.php:105
+msgid ""
+"<strong>Say What? Pro</strong> replaces the free version, so we have "
+"deactivated the free version. You can remove the free plugin when "
+"convenient."
+msgstr ""
+
+#: src/SayWhatProAdmin.php:90
+msgid "Settings"
+msgstr ""
+
+#: src/SayWhatProAdmin.php:138
+msgid "Error, you do not have permissions to import replacements."
+msgstr ""
+
+#: src/SayWhatProAdmin.php:309 src/SayWhatProAdmin.php:316
+#: src/SayWhatProAdmin.php:327 src/SayWhatProAdmin.php:334
+#: src/SayWhatProAdmin.php:346 src/SayWhatProAdmin.php:361
+#: src/SayWhatProAdmin.php:464 src/SayWhatProAdmin.php:497
+msgid "Did you really mean to do that? Please go back and try again."
+msgstr ""
+
+#: src/SayWhatProAdmin.php:405
+msgid "English (United States)"
+msgstr ""
+
+#: src/SayWhatProAdmin.php:409
+msgid "------------"
+msgstr ""
+
+#: src/SayWhatProAdmin.php:418 src/SayWhatProListTable.php:178
+#: src/SayWhatProWildcardsListTable.php:136
+msgid "Any"
+msgstr ""
+
+#: src/SayWhatProAutocompleteMatcher.php:28
+msgid "In your language:<br><span>&quot;%s&quot;</span>"
+msgstr ""
+
+#: src/SayWhatProAutocompleteMatcher.php:53
+msgid "No matches found"
+msgstr ""
+
+#: src/SayWhatProAutocompleteMatcher.php:60
+msgid "No suggestions available. Try String discovery"
+msgstr ""
+
+#: src/SayWhatProImporter.php:51
+msgid "new records: %d, updates: %d"
+msgstr ""
+
+#: src/SayWhatProImporter.php:55
+msgid "Number of items imported: %d (%s)."
+msgstr ""
+
+#: src/SayWhatProImporter.php:101
+msgid "Invalid ID received (\"%s\"), processing stopped."
+msgstr ""
+
+#: src/SayWhatProImporter.php:145
+msgid "File missing required headers: %s."
+msgstr ""
+
+#: src/SayWhatProListTable.php:29
+msgid "Export replacements"
+msgstr ""
+
+#: src/SayWhatProListTable.php:36
+msgid "No string replacements configured yet."
+msgstr ""
+
+#: src/SayWhatProListTable.php:113 src/SayWhatProListTable.php:258
+#: src/SayWhatProWildcardsListTable.php:110
+#: src/SayWhatProWildcardsListTable.php:199
+msgid "Delete"
+msgstr ""
+
+#: src/SayWhatProListTable.php:251 src/SayWhatProWildcardsListTable.php:192
+msgid "Edit"
+msgstr ""
+
+#: src/SayWhatProWildcardsListTable.php:30
+msgid "Export wildcard swaps"
+msgstr ""
+
+#: src/SayWhatProWildcardsListTable.php:37
+msgid "No wildcard swaps configured yet."
+msgstr ""
+
+#: src/SayWhatProWildcardsListTable.php:49
+msgid "Swap with"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Say What? Pro"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.leewillis.co.uk/downloads/say-what-pro"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"An easy-to-use plugin that allows you to alter strings on your site without "
+"editing WordPress core, or plugin code."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ademti Software Ltd."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.ademti-software.co.uk/"
+msgstr ""
+
+#: src/SayWhatProListTable.php:46
+msgctxt "Unique ID of the string replacement"
+msgid "ID"
+msgstr ""
+
+#: src/SayWhatProWildcardsListTable.php:47
+msgctxt "Unique ID of the wildcard swap"
+msgid "ID"
+msgstr ""

@@ -1,0 +1,956 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 07:03:48
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.15                                |7.3.5
+OS__________________: Linux                                 |Darwin
+CREATED_____________: 2021-03-03 09:40:54
+WP VERSION__________: 5.6.2
+DUP VERSION_________: 1.4.0
+DB__________________: 10.3.25
+DB TABLES___________: 48
+DB ROWS_____________: 12,259
+DB FILE SIZE________: 8.28MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.5 | SAPI: fpm-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.43 (Unix)
+DOC ROOT____________: "/Users/hoang/Local Sites/wpml/app/public"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/Users/hoang/Local Sites/wpml/app/public/20210303_sandbox_[HASH]_20210303094054_archive.zip"
+SIZE________________: 49.57MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 07:03:56 - RUNTIME: 8.0379 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 07:04:21
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.28 -- Build Server: 10.3.25
+FILE SIZE:	dup-database__[HASH].sql (3.81MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Users/hoang/Local Sites/wpml/app/public/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.28] is less than the build version [10.3.25].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	79
+RENAMED TABLES:	0
+QUERIES RAN:	430
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_icl_content_status: (0)
+wp_icl_core_status: (0)
+wp_icl_flags: (65)
+wp_icl_languages: (65)
+wp_icl_languages_translations: (4225)
+wp_icl_locale_map: (2)
+wp_icl_message_status: (0)
+wp_icl_mo_files_domains: (21)
+wp_icl_node: (0)
+wp_icl_reminders: (0)
+wp_icl_string_batches: (0)
+wp_icl_string_packages: (0)
+wp_icl_string_pages: (0)
+wp_icl_string_positions: (146)
+wp_icl_string_status: (0)
+wp_icl_string_translations: (1983)
+wp_icl_string_urls: (0)
+wp_icl_strings: (1993)
+wp_icl_translate: (16)
+wp_icl_translate_job: (4)
+wp_icl_translation_batches: (2)
+wp_icl_translation_downloads: (0)
+wp_icl_translation_status: (215)
+wp_icl_translations: (439)
+wp_learnpress_order_itemmeta: (4)
+wp_learnpress_order_items: (1)
+wp_learnpress_question_answermeta: (0)
+wp_learnpress_question_answers: (348)
+wp_learnpress_quiz_questions: (112)
+wp_learnpress_review_logs: (0)
+wp_learnpress_section_items: (105)
+wp_learnpress_sections: (9)
+wp_learnpress_sessions: (2)
+wp_learnpress_user_itemmeta: (10)
+wp_learnpress_user_items: (2)
+wp_links: (0)
+wp_options: (268)
+wp_postmeta: (1533)
+wp_posts: (438)
+wp_term_relationships: (211)
+wp_term_taxonomy: (8)
+wp_termmeta: (0)
+wp_terms: (8)
+wp_usermeta: (50)
+wp_users: (2)
+Removed '59' cache/transient rows
+
+INSERT DATA RUNTIME: 2.3544 sec.
+STEP-2 COMPLETE @ 07:04:23 - RUNTIME: 2.3658 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 07:04:29
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Sandbox"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/sites/onyx-hang"
+path_new______________: "/Users/hoang/Local Sites/wpml/app/public"
+siteurl_______________: "http://localhost:10029"
+url_old_______________: "https://onyx-hang.sandbox.otgs.work"
+url_new_______________: "http://localhost:10029"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_content_status"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_core_status"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_flags"____________________________________[ROWS:    65][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_icl_languages"________________________________[ROWS:    65][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_icl_languages_translations"___________________[ROWS:  4225][PG:   2][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_icl_locale_map"_______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_icl_message_status"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_mo_files_domains"_________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_icl_node"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_reminders"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_batches"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_pages"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_positions"_________________________[ROWS:   146][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_icl_string_status"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_translations"______________________[ROWS:  1983][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_icl_string_urls"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_strings"__________________________________[ROWS:  1993][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_icl_translate"________________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_icl_translate_job"____________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_icl_translation_batches"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_icl_translation_downloads"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_translation_status"_______________________[ROWS:   215][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_icl_translations"_____________________________[ROWS:   439][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_learnpress_order_itemmeta"____________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_learnpress_order_items"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_learnpress_question_answermeta"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_learnpress_question_answers"__________________[ROWS:   348][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_learnpress_quiz_questions"____________________[ROWS:   112][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_learnpress_review_logs"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_learnpress_section_items"_____________________[ROWS:   105][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_learnpress_sections"__________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_learnpress_sessions"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_learnpress_user_itemmeta"_____________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_learnpress_user_items"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   268][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1533][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   438][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   211][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    50][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/sites/onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  2:"\/var\/www\/sites\/onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  3:"%2Fvar%2Fwww%2Fsites%2Fonyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  4:"\var\www\sites\onyx-hang" ========================> "/Users/hoang/Local Sites/wpml/app/public"
+	SEARCH  5:"\\var\\www\\sites\\onyx-hang" ====================> "\/Users\/hoang\/Local Sites\/wpml\/app\/public"
+	SEARCH  6:"%5Cvar%5Cwww%5Csites%5Conyx-hang" ================> "%2FUsers%2Fhoang%2FLocal+Sites%2Fwpml%2Fapp%2Fpublic"
+	SEARCH  7:"//onyx-hang.sandbox.otgs.work" ===================> "//localhost:10029"
+	SEARCH  8:"\/\/onyx-hang.sandbox.otgs.work" =================> "\/\/localhost:10029"
+	SEARCH  9:"%2F%2Fonyx-hang.sandbox.otgs.work" ===============> "%2F%2Flocalhost%3A10029"
+	SEARCH 10:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 11:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+	SEARCH 13:"//red-guitar.sandbox.host" =======================> "//localhost:10029"
+	SEARCH 14:"\/\/red-guitar.sandbox.host" =====================> "\/\/localhost:10029"
+	SEARCH 15:"%2F%2Fred-guitar.sandbox.host" ===================> "%2F%2Flocalhost%3A10029"
+	SEARCH 16:"https://localhost:10029" =========================> "http://localhost:10029"
+	SEARCH 17:"https:\/\/localhost:10029" =======================> "http:\/\/localhost:10029"
+	SEARCH 18:"https%3A%2F%2Flocalhost%3A10029" =================> "http%3A%2F%2Flocalhost%3A10029"
+--------------------------------------
+SCANNED:	Tables:48 	|	 Rows:12288 	|	 Cells:95329 
+UPDATED:	Tables:4 	|	 Rows:449 	|	 Cells:454 
+ERRORS:		0 
+RUNTIME:	1.375100 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE WP_HOME "http://localhost:10029"
+	UPDATE WP_SITEURL "http://localhost:10029"
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 07:04:30 - RUNTIME: 1.4141 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================

@@ -1,0 +1,38 @@
+.wpmld-options-table {
+	max-width: 1000px;
+	border-spacing: 0px 15px;
+}
+
+.wpmld-options-table tr {
+	padding-bottom: 10px;
+}
+
+.wpmld-options-table tr td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.wpmld-options-table tr td:first-child {
+	padding-right: 20px;
+	border-right: 2px solid #ccc;
+}
+
+.wpmld-options-table tr td:nth-child(2){
+	padding-left: 20px;
+}
+
+.wpmld-options-table p {
+	margin: 0;
+}
+
+.wpmld-btn {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.wpmld-btn-enabled input{
+ background: #f75423 !important;
+ border: 0 !important;
+ box-shadow: 0 1px 0 #ccc !important;
+ text-shadow: none !important;
+}

@@ -1,0 +1,18 @@
+.wpuef_save_result_box
+{
+	margin-top:10px;
+	display:none;
+	clear:both;
+}
+.wpuef_extra_fields_custom_form_save_button
+{
+	margin-top:15px;
+	clear: both;
+  display: block;
+}
+.wpuef_label
+{
+	display:block;
+	clear:both;
+	margin-top: 10px;
+}

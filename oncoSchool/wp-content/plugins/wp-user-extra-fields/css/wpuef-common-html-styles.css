@@ -1,0 +1,119 @@
+#wpuef_required_fields_warning_message
+{
+	display:none;
+	color: red;
+	font-weight: bold;
+	margin-top:15px;
+	margin-bottom:15px;
+	clear:both;
+}
+.wpuef_image_preview
+{
+	display: block;
+	clear:both;
+	margin-bottom: 5px;
+}
+
+.wpuef_label.wpuef_required:after { content:" *";  color:red;}
+.wpuef_label {
+  clear: both;
+  display: block;
+}
+/* .woocommerce form .form-row select, */ .woocommerce-page form .form-row select.picker__select--year
+{
+ margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+  width: 40%;
+}
+.wpuef_file_uploader_container {
+	border: 1px solid #dedede;
+	padding: 20px;
+	margin-top: 10px;
+	display: block;
+
+}
+.wpuef_upload_progressbar
+{
+	background-color: grey;
+    display: block;
+    height: 10px;
+    width: 0%;
+}
+.wpuef_upload_progress_status_container
+{
+	display:none;
+	margin-top: 5px;
+}
+button.button.wpuef_file_upload_button, button.button.wpuef_file_tmp_delete_button
+{
+	display:none;
+}
+/* .form-row select.picker__select--month
+{
+	width:25%;
+	padding: 0;
+} */
+/* .woocommerce form .form-row select.wpuef_country_selector
+{
+	width: 100%;
+} */
+.form-row.form-row-first {
+  clear: both;
+}
+.description.wpuef_description, .wpuef_description
+{
+  clear: both;
+  display: block;
+}
+
+.wpuef_field_row
+{
+	display:block;
+	/* clear:both; */
+}
+.woocommerce .form-row-wide textarea.wpuef_input_textarea {
+    clear: both;
+    display: block;
+}
+.wpuef_preloader_image
+{
+	display:none;
+	margin-left: 15px;
+    width: 16px;
+}
+.select.select2-choice.wpuef_country_selector, .select.select2-choice.wpuef_state_selector {
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {
+	float: left;
+	width: 47%;
+	overflow: visible;
+}
+.woocommerce form .form-row-last, .woocommerce-page form .form-row-last 
+{
+	float: right;
+}
+.woocommerce form .form-row select, .woocommerce-page form .form-row select 
+{
+	width: 100%;
+	border: 1px solid #d3d3d3;
+	padding: 3px;
+}
+.wpuef_checkbox_label
+{
+	padding-left: 5px;
+}
+.wpuef_tmp_image_preview 
+{
+	display: block;
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.form-table th.picker__weekday
+{
+	width: auto !important;
+}
